@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1.3em;
+   font-family: Verdana, Geneva, sans-serif;
+  text-shadow: 2px 2px 8px white;
+  background-color: aqua;
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center
+}
+.masthead-intro{
+  margin-bottom: 0.1em;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 8px black;
+  font-family: tahoma, sans serif;
+  color: white;
+}
+.name {
+  font-size: 3.25em;
+  text-shadow: 2px 2px 8px black;
+  font-family: tahoma, sans serif;
+  letter-spacing: -0.02em;
+    text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  text-align: center
+}
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.social > li {
+    display: inline-block;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.questions-section > h2 {
+    /* Typography Declarations */
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.content-footer > p {
+ color: white;
+  text-shadow: 2px 2px 8px white;
+}
+.content-footer > a {
+ color: blue;
+}
+section > h1 {
+    margin-top: 2em;
+}
+.content-footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #000000;
+}
+h1  {
+  color: #FFFFFF;
+text-shadow: 2px 2px 75px #FF0000; 
+}
+p {
+  text-shadow: 2px 2px 8px white;
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+h1,
+.content-footer{
+  border-radius: 10px;
+  border: 3px solid #000000;
+  background-color: #000000;
+}
+a  {
+  color: aqua;
+text-shadow: 2px 2px 55px white;
+margin-left: 0.3rem;
+text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+h1,
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px #590000;
+	   -moz-box-shadow: 0 8px 6px -6px #590000;
+	        box-shadow: 0 8px 6px -6px #590000;
+}
+.masthead-intro {
+  padding: 5em 0;
+  background-image: url('http://fulbog.com/wp-content/uploads/2014/10/moving-vintage-photo-and-clock-gif.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+border-top: solid 1.39em #000000;
+}
+
+/**
+ * Responsive Design
+ */
+ @media (max-width: 1280px) {
+       .masthead
+}
+@media (max-width: 800px) {
+       .masthead
+}
+@media (max-width: 650px) {
+       .masthead
+}
+@media (max-width: 450px) {
+       .masthead
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+       .masthead
+}
+
+nav ul ul {
+  display: none;
+}
+
+  nav ul li:hover > ul {
+    display: block;
+  }
+  nav ul {
+  background: #000000; 
+  background: linear-gradient(top, #000000 0%, #000000 100%);  
+  background: -moz-linear-gradient(top, #000000 0%, #000000 100%); 
+  background: -webkit-linear-gradient(top, #000000 0%,#000000 100%); 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 20px;
+  border-radius: 10px;  
+  list-style: none;
+  position: absolute;
+  display: inline-table;
+}
+  nav ul:after {
+    content: ""; clear: both; display: block;
+  }
+  nav ul li {
+  float: right;
+  margin-left: 3rem;
+}
+  nav ul li:hover {
+    background: #000000;
+    background: linear-gradient(top, #000000 0%, #000000 40%);
+    background: -moz-linear-gradient(top, #000000 0%, #000000 40%);
+    background: -webkit-linear-gradient(top, #000000 0%,#000000 40%);
+  }
+    nav ul li:hover a {
+      color: #fff;
+    }
+  
+  nav ul li a {
+    display: block; padding: 0.3rem 3rem;
+    color: aqua; text-decoration: none;
+    background-color: #000000;
+    margin-top: 2.3rem;
+  }
+
+  nav ul ul {
+  background: #000000; border-radius: 10px; padding: 0;
+  position: absolute; top: 100%;
+}
+  nav ul ul li {
+    float: none; 
+    border-top: 1px solid #23B59C
+    border-bottom: 1px solid #23B59C;
+    position: static;   
+    display: inline;
+  }
+    nav ul ul li a {
+      padding: 15px 40px;
+      color: #fff;
+    } 
+      nav ul ul li a:hover {
+        background: #23B59C;
+        border-radius: 10px;
+      }
+      nav ul ul ul {
+  position: absolute; left: 100%; top:0;
+}
+
+img.logo {
+  float: right;
+  position: relative; top: -16.5rem;
+}
